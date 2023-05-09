@@ -17,6 +17,7 @@ const insert = () => {
 const delCard = () => {
     const george = document.querySelector('#displays')
     george.remove()
+    george.create()
 }
 
 const appendText = (label = "No label") => {
